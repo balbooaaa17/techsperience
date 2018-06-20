@@ -1,0 +1,44 @@
+console.log(121212)
+VM297:1 121212
+undefined
+var name = prompt('what is your name')
+undefined
+var name = prompt('what is your name')
+undefined
+var name = prompt('what is your name'); name;
+"astrit"
+alert('name is ' + name)
+undefined
+var name = prompt('what is your name')
+
+undefined
+var name = prompt('what is your name'); var last = prompt('what is your last name'); var age = prompt('what is your age'); name; last; age
+
+
+
+"12"
+var name = prompt('what is your name'); var last = prompt('what is your last name'); var age = prompt('what is your age'); name + last + age
+
+
+
+"astritkrasniqi12"
+var name = prompt('what is your name'); var last = prompt('what is your last name'); var age = prompt('what is your age'); 'your full name is' '+name+last' + 'and you are' + age 
+
+
+
+VM324:1 Uncaught SyntaxError: Unexpected string
+var name = prompt('what is your name'); var last = prompt('what is your last name'); var age = prompt('what is your age'); 'your full name is' +'name+last' + 'and you are' + age 
+
+
+
+"your full name isname+lastand you are12"
+var name = prompt('what is your name'); var last = prompt('what is your last name'); var age = prompt('what is your age'); 'your full name is' +name + last' + 'and you are' + age
+
+
+
+VM326:1 Uncaught SyntaxError: Unexpected string
+var name = prompt('what is your name'); var last = prompt('what is your last name'); var age = prompt('what is your age'); 'your full name is' +name + last + 'and you are' + age 
+
+
+
+"your full name isastritkrasniqiand you are12"

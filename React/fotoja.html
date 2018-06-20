@@ -1,0 +1,80 @@
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js">
+</script>
+    <title>Getting Started with React</title>
+    <style>
+      .title {
+         background-color: hotpink;
+      }
+   </style>
+</head>
+<body>
+	<div id="react-container"></div>
+
+
+	<script type="text/babel">
+
+      // Class-based component
+      class FirstComponent extends React.Component {
+         render() {
+            return (
+               <div id="container">
+                  <h1 className="title">{this.props.name}</h1>
+                  <h3>{this.props.lastName}</h3>
+               </div>
+            );
+         }
+      }
+
+      // Functional-based component - stateless
+      const SecondComponent = (props) => {
+         return (
+            <div>
+               <h1>{props.age}</h1>
+            </div>
+         )
+      }
+
+
+      function Person(props) {
+         // Destructuring - ES6
+         const { name, age, isMarried } = props.user;
+
+         return (
+            <div>
+               <h3>Name: {name}</h3>
+               <h3>Age: {age}</h3>
+               <h2>Married: {isMarried ? 'Po' : 'Jo'}</h2>
+            </div>
+         )
+      }
+
+      // Data structure - Object Literal
+      const person = {
+         name: "Bill",
+         age: 45,
+         isMarried: true
+      }
+
+      const App = () => {
+         return (
+            <div>
+               <FirstComponent name="Bill" />
+               <SecondComponent name="John" lastName="Doe" age={45} />
+            </div>
+         )
+      }
+
+      ReactDOM.render(
+         <Person user={person} />,
+         document.getElementById('react-container')
+      );
+
+	</script>
+</body>
+</html>

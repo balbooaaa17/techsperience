@@ -1,0 +1,28 @@
+As I've always described it:
+
+A Library is a tool.
+
+A Framework is a way of life.
+
+A library you can use whatever tiny part helps you. A Framework you must commit your entire project to.
+
+
+420
+down vote
+A library performs specific, well-defined operations.
+
+A framework is a skeleton where the application defines the "meat" of the operation by filling out the skeleton. The skeleton still has code to link up the parts but the most important work is done by the application.
+
+Examples of libraries: Network protocols, compression, image manipulation, string utilities, regular expression evaluation, math. Operations are self-contained.
+
+Examples of frameworks: Web application system, Plug-in manager, GUI system. The framework defines the concept but the application defines the fundamental functionality that end-users care about.
+
+shareimprove this answer
+answered Sep 29 '08 at 13:58
+
+Jason Cohen
+56.2k2399108
+4
++1 for real examples. Btw, do you mind clarifying what do you mean by a "web application system"? – Pacerier Aug 27 '14 at 3:35 
+1
+@Pacerier probably something that lets you create a full web application, like Rails for Ruby or Sails for Node.js. – gustavohenke Dec 15 '14 at 13:49
