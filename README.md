@@ -6,10 +6,10 @@
 
 In the words of Abraham Lincoln:
 
-> Pardon my French -! </br>
-> Wait ... He didn't actually said that ... ! 
+> Pardon me, but my favourite color is hotPink :/ ! </br>
+> Wait ... He didn't actually said that ... ! xD :) 
 
 ---------------------------------------
 
-![alt text](https://i.imgur.com/p6ngrIn.jpg)
+![alt text](http://techsperience.opendatakosovo.org/images/sm_techsperience.jpg)
 
