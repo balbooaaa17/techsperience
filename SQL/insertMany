@@ -1,5 +1,0 @@
- db.products.insertMany( [
-      { item: "card", qty: 15 },
-      { item: "envelope", qty: 20 },
-      { item: "stamps" , qty: 30 }
-   ] );
